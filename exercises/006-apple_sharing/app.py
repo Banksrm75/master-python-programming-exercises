@@ -1,6 +1,7 @@
 def apple_sharing(n,k):
-  # Your code here
-  return None
- 
+  basket = k % n 
+
+  return ((k-basket)/n), basket
+
 
 print(apple_sharing(6,50))
